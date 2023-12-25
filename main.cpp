@@ -4,7 +4,7 @@
 
 using namespace std;
 int main() {
-    Console APP("Application");
-    APP.run();
+    Console ATM("Application");
+    ATM.run();
     return 0;
 }
