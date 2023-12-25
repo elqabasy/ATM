@@ -42,7 +42,8 @@ void Console::run() {
             if (command == "exit") {
                 stop();
             } else {
-                // executeCommand(command);
+                onStart();
+                executeCommand(command);
             }
         }
         catch (const exception& e) {
